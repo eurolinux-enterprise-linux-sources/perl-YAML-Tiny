@@ -1,6 +1,6 @@
 Name:           perl-YAML-Tiny
 Version:        1.51
-Release:        5%{?dist}
+Release:        6%{?dist}
 Summary:        Read/Write YAML files with as little code as possible
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -50,6 +50,9 @@ make test AUTOMATED_TESTING=1
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.51-6
+- Mass rebuild 2013-12-27
+
 * Tue Aug 21 2012 Jitka Plesnikova <jplesnik@redhat.com> - 1.51-5
 - Add perl(Carp) to requires.
 
